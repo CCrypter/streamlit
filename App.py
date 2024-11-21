@@ -3,16 +3,18 @@ from Pages import Home, Project1, Project2, Project3
 from streamlit_navigation_bar import st_navbar
 import os
 from PIL import Image
+import pandas as pd
+import numpy as np
 
-image = Image.open('img/barca.png')
+image = Image.open('img/logo.png')
 st.set_page_config(initial_sidebar_state="collapsed", page_icon=image)
 
-logo_path = os.path.join(os.path.dirname(__file__), "img", "barca.svg")
+logo_path = os.path.join(os.path.dirname(__file__), "img", "logo.svg")
 pages = ['Home','Project1', 'Project2', 'Project3']
 
 styles = {
     "nav": {
-        "background-color": "royalblue",
+        "background-color": "#D0D000",
         "display": "flex",
         "justify-content": "center",
         "position": "relative"
@@ -25,11 +27,11 @@ styles = {
         "height": "40px",
     },
     "span": {
-        "color": "white",
+        "color": "black",
         "padding": "0.4375rem 0.625rem",
     },
     "active": {
-        "background-color": "white",
+        "background-color": "#A0A000",
         "color": "var(--text-color)",
         "font-weight": "normal",
         "padding": "14px",
