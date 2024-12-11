@@ -6,9 +6,7 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 
-image = Image.open('img/logo.png')
-st.set_page_config(initial_sidebar_state="collapsed", page_icon=image)
-
+st.set_page_config(initial_sidebar_state="collapsed", page_icon="img/logo.png")
 logo_path = os.path.join(os.path.dirname(__file__), "img", "logo.svg")
 pages = ['Home','Project1', 'Project2', 'Project3']
 
