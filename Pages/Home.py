@@ -33,3 +33,31 @@ class Home:
             with right_column:
                 st_lottie(lottie_animation, height=300, key="coding")
                 st.image("img/saintropez.png")
+        with st.container():
+            st.write("---")
+            st.header("My Videos")
+            st.write("##")
+            image_column, text_column = st.columns((1, 2))
+            with image_column:
+                st.image("img/vid1.png")
+            with text_column:
+                st.subheader("This is the BEST vehicle in GTA San Andreas")
+                st.write(
+                    """
+                    In this video I'll show you what is the BEST vehicle in GTA San Andreas
+                    """
+                )
+                st.markdown("[Watch Video!](https://youtu.be/tVQamY4ewdk?si=dEHytqiwP2YCq-VA)")
+        with st.container():
+            image_column, text_column = st.columns((1, 2))
+            with image_column:
+                st.image("img/vid2.png")
+            with text_column:
+                st.subheader("Minecraft ReIndev Review!")
+                st.write(
+                    """
+                    Minecraft ReIndev is a global modification for Minecraft Beta 1.7.3!
+                    """
+                )
+                st.markdown("[Watch Video!](https://www.youtube.com/watch?v=OJVoiDkr868)")
+
