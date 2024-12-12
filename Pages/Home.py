@@ -9,7 +9,7 @@ class Home:
             lottie_animation = "https://lottie.host/91be4f3b-2f30-4b1f-bb78-5acfb14060f7/4P4uMo4mp1.json"
             st.subheader('Hi, I am Nick :wave:')
             st.title('A Data Analyst from Eshkerya')
-            st.write("I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings.")
+            st.write("I'm learning Python and Streamlit and this is my first Streamlit Site =)")
             st.write("[My previous site](https://ccrypter.github.io/NikitaRas/index.html) based on elderly techology named html and css!")
         with st.container():
             st.write("---")
