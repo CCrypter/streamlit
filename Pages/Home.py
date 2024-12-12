@@ -10,7 +10,7 @@ class Home:
             st.subheader('Hi, I am Nick :wave:')
             st.title('A Data Analyst from Eshkerya')
             st.write("I'm learning Python and Streamlit and this is my first Streamlit Site =)")
-            st.write("[My previous site](https://ccrypter.github.io/NikitaRas/index.html) based on elderly techology named html and css!")
+            st.write("[My previous site](https://ccrypter.github.io/NikitaRas/index.html) based on elderly technology named html and css!")
         with st.container():
             st.write("---")
             left_column, right_column = st.columns(2)
